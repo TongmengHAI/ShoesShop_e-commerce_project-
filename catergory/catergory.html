@@ -1,0 +1,991 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-commerce</title>
+
+    <link rel="stylesheet" href="./catergory.css">
+    <link rel="stylesheet" href="../detailProduct/detailProduct.css">
+    <link rel="stylesheet" href="../header/header.css">
+    <link rel="stylesheet" href="../footer/footer.css">
+    <link rel="icon" href="../assets/shoes-icon-logo.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.6.3.js" integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM=" crossorigin="anonymous"></script>
+
+    <!-- animation -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+</head>
+
+<body>
+    <!-- header -->
+    <header class="header ">
+        <!-- navbar -->
+        <nav class="header__navBar">
+            <div class="header__navBar__container">
+                
+                <a href="../index.html" class="header__navBar__container__logoName" style="text-decoration: none;">
+                    <div class="header__navBar__container--logo">
+                        <img src="../assets/logo.png" alt="logo">
+                    </div>
+                    <div class="header__navBar__container--name">
+                        <span>Shopping</span>
+                    </div>
+                </a>
+                <div class="header__navBar__container__searchBox_menu">
+                    <div class="navBar__container--searchBox form-group">
+                        <input type="text" placeholder="Search here">
+                        <button class="btn btn-info form"><i class='bx bx-search-alt-2'></i></button>
+                    </div>
+                    <div class="navBar__container__menu">
+                        <a href="../index.html">
+                            <div class="navBar__container__menu--home">
+                                <ul>
+                                    <li>
+                                        <a href="../index.html">
+                                            <i class='bx bx-home' ></i>
+                                            <span>Home</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </a>
+                        
+                        <div class="navBar__container__menu--shop">
+                            <a href="../shopPage/shopPage.html">
+                                <ul>
+                                    <li>
+                                        <a href="../shopPage/shopPage.html">
+                                            <span>Shop</span>
+                                            
+                                        </a>
+                                    </li>
+                                </ul>
+                            </a>
+                            
+                            
+                        </div>
+                        <div class="navBar__container__menu--categories">
+                            <ul>
+                                <li><a href="./catergory.html">Categories</a>
+                                    <i class='bx bx-chevron-down bx1'></i>
+
+                                    <div class="drop_down">
+                                        <ul>
+                                            <li class="girl"><span >Girl shoes</span></li>
+                                            <li class="boy"><span >Boy shoes</span></li>
+                                            <li class="women"><span >Women shoes</span></li>
+                                            <li class="men"><span>Men shoes</span></li>
+                                        </ul>
+                                    </div>
+                                    
+                                </li>
+                                
+                                
+                            </ul>
+                            
+
+                            
+                        </div>
+
+                    </div>
+                </div>
+                <!-- developer -->
+                <div class="header__navBar__container--aboutUs">
+                    <div class="aboutUs--title"><h5>Developer</h5></div>
+
+                    
+                    
+                    
+                </div>
+            </div>
+        </nav>
+        <div class="aboutUs__content">
+            <div class="aboutUs--profile">
+                <table>
+                    <tr class="tr1">
+                        <td rowspan="3"> <img src="../assets/e20201056 - Copy.jpg" style="height: 100px; width: 100px;" alt=""></td>
+                        <th colspan="2">HAI TONGMENG</th>
+                    </tr>
+                    <tr class="tr2">
+                        <th>Major:</th>
+                        <td>FrontEnd Developer</td>
+                        
+                    </tr>
+                    <tr class="tr3">
+                        <th>Skills:</th>
+                        <td>HTML, CSS, JAVA script, Bootstrap, JQuery</td>
+                    </tr>
+                    
+                </table>
+            </div>
+        </div>
+            
+        
+    </header>
+
+    <div class="header--pageNotice">
+        <div class="pageNotice__background1"></div>
+        <div class="pageNotice__background2"></div>
+        <div class="pageNotice__background3"></div>
+
+        
+        <div class="pageNotice__background14"></div>
+        <div class="pageNotice__background24"></div>
+        <div class="pageNotice__background34"></div>
+        <div class="pageNotice__text">
+
+            <div class="pageNotice__text--home">Home</div>
+            <div class="pageNotice__text--shop">Shop</div>
+            <div class="pageNotice__text--catergory1">Catergory</div>
+        </div>
+    </div>
+
+    <!-- content body -->
+    <div class="container_body ">
+        <div class="container_body__content">
+
+            <div class="container_body__content__boxCard1 boxCard page1">
+                
+                    <div class="box1 box girl"  data-aos="fade-up" data-aos-duration="1000">
+                        <img src="../assets/1chunky_main.jpg" alt="" class="box--imageMain  girl1">
+                        <img src="../assets/1chunky_left.jpg" alt="" class="box--image1 girl2">
+                        <img src="../assets/1chunky_pair.jpg"alt="" class="box--image2 girl3">
+                        <img src="../assets/1chunky_right.jpg" alt="" class="box--image3 girl4">
+                        <span class="product__name">Chunky Shoes</span>
+                        <div class="product__price">
+                            <div class="product__price__original">
+                                <del>40$</del>
+                            </div>
+                            <div class="product__price__discount">28$</div>
+                        </div>
+                        <div class="product__detail__inCard">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis, deserunt?</div>
+                    </div>
+                
+                
+                    <div class="box2 box women " data-aos="fade-up" data-aos-duration="1000">
+                        <img src="../assets/1shoes heel_main.jpg" alt="" class="box--imageMain women1">
+                        <img src="../assets/1shoes heel_face.jpg" alt="" class="box--image1 women2">
+                        <img src="../assets/1shoes heel_left.jpg" alt="" class="box--image2 women3">
+                        <img src="../assets/1shoes heel_right.jpg" alt="" class="box--image3 women4">
+                        <span class="product__name">Shoes heel</span>
+                        <div class="product__price">
+                            <div class="product__price__original">
+                                <del>50$</del>
+                            </div>
+                            <div class="product__price__discount">45$</div>
+                            
+                        </div>
+                        <div class="product__detail__inCard">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus molestiae inventore dolorem consequatur tempora eum.</div>
+                    </div>
+                
+                
+                    <div class="box3 box "  data-aos="fade-up" data-aos-duration="1000"  >
+                        <img src="../assets/1sneaker_main.jpg" alt="" class="box--imageMain ">
+                        <img src="../assets/1sneaker_left.jpg" alt="" class="box--image1 ">
+                        <img src="../assets/1sneaker_pair.jpg" alt="" class="box--image2 ">
+                        <img src="../assets/1sneaker_right.jpg" alt="" class="box--image3 ">
+                        <span class="product__name">Sneaker</span>
+                        <div class="product__price">
+                            <div class="product__price__original">
+                                <del >20$</del>
+                            </div>
+                            <div class="product__price__discount">18$</div>
+                            
+                        </div>
+                        <div class="product__detail__inCard">Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique dicta accusantium sit porro laboriosam molestias, officia soluta doloremque id ipsa.</div>
+                    </div>
+                
+                
+                    <div class="box4 box men" data-aos="fade-up" data-aos-duration="1000">
+                        <img src="../assets/2dress shoes_main.jpg" alt="" class="box--imageMain men1">
+                        <img src="../assets/2dress shoes_left.jpg" alt="" class="box--image1 men2">
+                        <img src="../assets/2dress shoes_pair.jpg" alt="" class="box--image2 men3">
+                        <img src="../assets/2dress shoes_right.jpg" alt="" class="box--image3 men4">
+                        <span class="product__name">Drees shoes</span>
+                        <div class="product__price">
+                            <div class="product__price__original">
+                                <del>33$</del>
+                            </div>
+                            <div class="product__price__discount">15$</div>
+                            
+                        </div>
+                        <div class="product__detail__inCard">Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim autem quis placeat quia ea. Maiores iure obcaecati expedita, molestiae omnis provident alias minus dolorum? Impedit!</div>
+                    </div>
+                
+                
+                    <div class="box5 box boy" data-aos="fade-up" data-aos-duration="1000">
+                        <img src="../assets/2running shoes_main.jpg" alt="" class="box--imageMain boy1">
+                        <img src="../assets/2running shoes_back.jpg" alt="" class="box--image1 boy2">
+                        <img src="../assets/2running shoes_right.jpg" alt="" class="box--image2 boy3">
+                        <img src="../assets/2running shoes_under.jpg" alt="" class="box--image3 boy4">
+                        <span class="product__name">Running Shoes</span>
+                        <div class="product__price">
+                            <div class="product__price__original">
+                                <del>25$</del>
+                            </div>
+                            <div class="product__price__discount">18$</div>
+                                            
+                        </div>
+                        <div class="product__detail__inCard">Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi asperiores, dolorum odio vel illo assumenda velit architecto animi accusamus doloremque quo eos adipisci quibusdam a id nihil, reiciendis similique saepe?</div>                       
+
+                    </div>
+                
+                
+            </div>
+
+            <div class="container_body__content__boxCard3 boxCard page1">
+                
+                    <div class="box1 box nondiscount " data-aos="fade-up" data-aos-duration="1500">
+                        <img src="../assets/1chunky_main.jpg" alt="" class="box--imageMain">
+                        <img src="../assets/1chunky_left.jpg" alt="" class="box--image1">
+                        <img src="../assets/1chunky_pair.jpg"alt="" class="box--image2">
+                        <img src="../assets/1chunky_right.jpg" alt="" class="box--image3">
+                        <span class="product__name">Chunky Shoes</span>
+                        <div class="product__price">
+                            <div class="product__price__original">40$</div>
+                            <div class="product__price__discount">40$</div>
+                        </div>
+                        <div class="product__detail__inCard">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae, sint.</div>
+                    </div>
+                
+                
+                    <div class="box2 box nondiscount" data-aos="fade-up" data-aos-duration="1500">
+                        <img src="../assets/1shoes heel_main.jpg" alt="" class="box--imageMain">
+                        <img src="../assets/1shoes heel_face.jpg" alt="" class="box--image1">
+                        <img src="../assets/1shoes heel_left.jpg" alt="" class="box--image2">
+                        <img src="../assets/1shoes heel_right.jpg" alt="" class="box--image3">
+                        <span class="product__name">Shoes heel</span>
+                        <div class="product__price">
+                            <div class="product__price__original">50$</div>
+                            <div class="product__price__discount">50$</div>
+                        </div>
+                        <div class="product__detail__inCard">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque quaerat sed nesciunt, accusamus hic in!</div>
+                    </div>
+                
+                
+                    <div class="box3 box nondiscount" data-aos="fade-up" data-aos-duration="1500">
+                        <img src="../assets/1sneaker_main.jpg" alt="" class="box--imageMain">
+                        <img src="../assets/1sneaker_left.jpg" alt="" class="box--image1">
+                        <img src="../assets/1sneaker_pair.jpg" alt="" class="box--image2">
+                        <img src="../assets/1sneaker_right.jpg" alt="" class="box--image3">                        <span class="product__name">Sneaker</span>
+                        <div class="product__price">
+                            <div class="product__price__original">20$</div>
+                            <div class="product__price__discount">20$</div>
+                        </div>
+                        <div class="product__detail__inCard">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod sapiente non laborum. Cupiditate iste quasi ut molestias ea dolorem error.</div>
+                    </div>
+                
+                
+                    <div class="box4 box nondiscount" data-aos="fade-up" data-aos-duration="1500">
+                        <img src="../assets/2dress shoes_main.jpg" alt="" class="box--imageMain">
+                        <img src="../assets/2dress shoes_left.jpg" alt="" class="box--image1">
+                        <img src="../assets/2dress shoes_pair.jpg" alt="" class="box--image2">
+                        <img src="../assets/2dress shoes_right.jpg" alt="" class="box--image3">
+                        <span class="product__name">Drees shoes</span>
+                        <div class="product__price">
+                            <div class="product__price__original">33$</div>
+                            <div class="product__price__discount">33$</div>
+                        </div>
+                        <div class="product__detail__inCard">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eum totam harum ipsam corporis quis reiciendis, soluta illum doloribus, nulla cum voluptatibus voluptate dolorum culpa fuga.</div>
+                    </div>
+                
+                
+                    <div class="box5 box nondiscount"data-aos="fade-up" data-aos-duration="1500">
+                        <img src="../assets/2running shoes_main.jpg" alt="" class="box--imageMain">
+                        <img src="../assets/2running shoes_back.jpg" alt="" class="box--image1">
+                        <img src="../assets/2running shoes_right.jpg" alt="" class="box--image2">
+                        <img src="../assets/2running shoes_under.jpg" alt="" class="box--image3">                        <span class="product__name">Running Shoes</span>
+                        <div class="product__price">
+                            <div class="product__price__original">25$</div>
+                            <div class="product__price__discount">25$</div>
+                        </div>
+                        <div class="product__detail__inCard">Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet eaque ipsam tenetur quod pariatur alias corporis architecto, vel voluptatibus aspernatur hic! Quo iusto rerum aperiam eveniet numquam excepturi, quis ad.</div>
+                    </div>
+                
+            </div>
+
+            <!-- slide show -->
+            <div class="slideShow page1 "  data-aos="zoom-in-up" data-aos-duration="2000">
+                <div class="slideContent">
+                    <div class="box_back"><i class='bx bx-chevron-left'></i></div>
+                    <div class="slide1 slide"><img src="../assets/slide1.jpg" alt=""></div>
+                    <div class="slide2 slide"><img src="../assets/slide2.jpg" alt=""></div>
+                    <div class="slide3 slide"><img src="../assets/slide3.jpg" alt=""></div>
+                    <div class="slide4 slide"><img src="../assets/slide4.jpg" alt=""></div>
+                    <div class="slide5 slide"><img src="../assets/slide5.jpg" alt=""></div>
+                    <div class="box_next"><i class='bx bx-chevron-right'></i></div>
+                </div>
+            </div>
+
+            
+            <div class="container_body__content__boxCard3 boxCard page1">
+                
+                    <div class="box1 box nondiscount" data-aos="fade-up" data-aos-duration="1500">
+                        <img src="../assets/1chunky_main.jpg" alt="" class="box--imageMain">
+                        <img src="../assets/1chunky_left.jpg" alt="" class="box--image1">
+                        <img src="../assets/1chunky_pair.jpg"alt="" class="box--image2">
+                        <img src="../assets/1chunky_right.jpg" alt="" class="box--image3">
+                        <span class="product__name">Chunky Shoes</span>
+                        <div class="product__price">
+                            <div class="product__price__original">40$</div>
+                            <div class="product__price__discount">40$</div>
+                        </div>
+                        <div class="product__detail__inCard">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae, sint.</div>
+                    </div>
+                
+                
+                    <div class="box2 box nondiscount" data-aos="fade-up" data-aos-duration="1500">
+                        <img src="../assets/1shoes heel_main.jpg" alt="" class="box--imageMain">
+                        <img src="../assets/1shoes heel_face.jpg" alt="" class="box--image1">
+                        <img src="../assets/1shoes heel_left.jpg" alt="" class="box--image2">
+                        <img src="../assets/1shoes heel_right.jpg" alt="" class="box--image3">
+                        <span class="product__name">Shoes heel</span>
+                        <div class="product__price">
+                            <div class="product__price__original">50$</div>
+                            <div class="product__price__discount">50$</div>
+                        </div>
+                        <div class="product__detail__inCard">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque quaerat sed nesciunt, accusamus hic in!</div>
+                    </div>
+                
+                
+                    <div class="box3 box nondiscount" data-aos="fade-up" data-aos-duration="1500">
+                        <img src="../assets/1sneaker_main.jpg" alt="" class="box--imageMain">
+                        <img src="../assets/1sneaker_left.jpg" alt="" class="box--image1">
+                        <img src="../assets/1sneaker_pair.jpg" alt="" class="box--image2">
+                        <img src="../assets/1sneaker_right.jpg" alt="" class="box--image3">                        <span class="product__name">Sneaker</span>
+                        <div class="product__price">
+                            <div class="product__price__original">20$</div>
+                            <div class="product__price__discount">20$</div>
+                        </div>
+                        <div class="product__detail__inCard">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod sapiente non laborum. Cupiditate iste quasi ut molestias ea dolorem error.</div>
+                    </div>
+                
+                
+                    <div class="box4 box nondiscount" data-aos="fade-up" data-aos-duration="1500">
+                        <img src="../assets/2dress shoes_main.jpg" alt="" class="box--imageMain">
+                        <img src="../assets/2dress shoes_left.jpg" alt="" class="box--image1">
+                        <img src="../assets/2dress shoes_pair.jpg" alt="" class="box--image2">
+                        <img src="../assets/2dress shoes_right.jpg" alt="" class="box--image3">
+                        <span class="product__name">Drees shoes</span>
+                        <div class="product__price">
+                            <div class="product__price__original">33$</div>
+                            <div class="product__price__discount">33$</div>
+                        </div>
+                        <div class="product__detail__inCard">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eum totam harum ipsam corporis quis reiciendis, soluta illum doloribus, nulla cum voluptatibus voluptate dolorum culpa fuga.</div>
+                    </div>
+                
+                
+                    <div class="box5 box nondiscount" data-aos="fade-up" data-aos-duration="1500">
+                        <img src="../assets/2running shoes_main.jpg" alt="" class="box--imageMain">
+                        <img src="../assets/2running shoes_back.jpg" alt="" class="box--image1">
+                        <img src="../assets/2running shoes_right.jpg" alt="" class="box--image2">
+                        <img src="../assets/2running shoes_under.jpg" alt="" class="box--image3">                        <span class="product__name">Running Shoes</span>
+                        <div class="product__price">
+                            <div class="product__price__original">25$</div>
+                            <div class="product__price__discount">25$</div>
+                        </div>
+                        <div class="product__detail__inCard">Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet eaque ipsam tenetur quod pariatur alias corporis architecto, vel voluptatibus aspernatur hic! Quo iusto rerum aperiam eveniet numquam excepturi, quis ad.</div>
+                    </div>
+                
+            </div>
+
+            
+            <div class="container_body__content__boxCard3 boxCard page1" >
+                
+                    <div class="box1 box nondiscount" data-aos="fade-up" data-aos-duration="1500">
+                        <img src="../assets/1chunky_main.jpg" alt="" class="box--imageMain">
+                        <img src="../assets/1chunky_left.jpg" alt="" class="box--image1">
+                        <img src="../assets/1chunky_pair.jpg"alt="" class="box--image2">
+                        <img src="../assets/1chunky_right.jpg" alt="" class="box--image3">
+                        <span class="product__name">Chunky Shoes</span>
+                        <div class="product__price">
+                            <div class="product__price__original">40$</div>
+                            <div class="product__price__discount">40$</div>
+                        </div>
+                        <div class="product__detail__inCard">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae, sint.</div>
+                    </div>
+                
+                
+                    <div class="box2 box nondiscount" data-aos="fade-up" data-aos-duration="1500">
+                        <img src="../assets/1shoes heel_main.jpg" alt="" class="box--imageMain">
+                        <img src="../assets/1shoes heel_face.jpg" alt="" class="box--image1">
+                        <img src="../assets/1shoes heel_left.jpg" alt="" class="box--image2">
+                        <img src="../assets/1shoes heel_right.jpg" alt="" class="box--image3">
+                        <span class="product__name">Shoes heel</span>
+                        <div class="product__price">
+                            <div class="product__price__original">50$</div>
+                            <div class="product__price__discount">50$</div>
+                        </div>
+                        <div class="product__detail__inCard">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque quaerat sed nesciunt, accusamus hic in!</div>
+                    </div>
+                
+                
+                    <div class="box3 box nondiscount" data-aos="fade-up" data-aos-duration="1500">
+                        <img src="../assets/1sneaker_main.jpg" alt="" class="box--imageMain">
+                        <img src="../assets/1sneaker_left.jpg" alt="" class="box--image1">
+                        <img src="../assets/1sneaker_pair.jpg" alt="" class="box--image2">
+                        <img src="../assets/1sneaker_right.jpg" alt="" class="box--image3">                        <span class="product__name">Sneaker</span>
+                        <div class="product__price">
+                            <div class="product__price__original">20$</div>
+                            <div class="product__price__discount">20$</div>
+                        </div>
+                        <div class="product__detail__inCard">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod sapiente non laborum. Cupiditate iste quasi ut molestias ea dolorem error.</div>
+                    </div>
+                
+                
+                    <div class="box4 box nondiscount" data-aos="fade-up" data-aos-duration="1500">
+                        <img src="../assets/2dress shoes_main.jpg" alt="" class="box--imageMain">
+                        <img src="../assets/2dress shoes_left.jpg" alt="" class="box--image1">
+                        <img src="../assets/2dress shoes_pair.jpg" alt="" class="box--image2">
+                        <img src="../assets/2dress shoes_right.jpg" alt="" class="box--image3">
+                        <span class="product__name">Drees shoes</span>
+                        <div class="product__price">
+                            <div class="product__price__original">33$</div>
+                            <div class="product__price__discount">33$</div>
+                        </div>
+                        <div class="product__detail__inCard">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eum totam harum ipsam corporis quis reiciendis, soluta illum doloribus, nulla cum voluptatibus voluptate dolorum culpa fuga.</div>
+                    </div>
+                
+                
+                    <div class="box5 box nondiscount" data-aos="fade-up" data-aos-duration="1500">
+                        <img src="../assets/2running shoes_main.jpg" alt="" class="box--imageMain">
+                        <img src="../assets/2running shoes_back.jpg" alt="" class="box--image1">
+                        <img src="../assets/2running shoes_right.jpg" alt="" class="box--image2">
+                        <img src="../assets/2running shoes_under.jpg" alt="" class="box--image3">                        <span class="product__name">Running Shoes</span>
+                        <div class="product__price">
+                            <div class="product__price__original">25$</div>
+                            <div class="product__price__discount">25$</div>
+                        </div>
+                        <div class="product__detail__inCard">Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet eaque ipsam tenetur quod pariatur alias corporis architecto, vel voluptatibus aspernatur hic! Quo iusto rerum aperiam eveniet numquam excepturi, quis ad.</div>
+                    </div>
+                
+            </div>
+
+            
+            <div class="container_body__content__boxCard3 boxCard page2">
+                
+                    <div class="box1 box nondiscount" data-aos="fade-up" data-aos-duration="1500">
+                        <img src="../assets/1chunky_main.jpg" alt="" class="box--imageMain">
+                        <img src="../assets/1chunky_left.jpg" alt="" class="box--image1">
+                        <img src="../assets/1chunky_pair.jpg"alt="" class="box--image2">
+                        <img src="../assets/1chunky_right.jpg" alt="" class="box--image3">
+                        <span class="product__name">Chunky Shoes</span>
+                        <div class="product__price">
+                            <div class="product__price__original">40$</div>
+                            <div class="product__price__discount">40$</div>
+                        </div>
+                        <div class="product__detail__inCard">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae, sint.</div>
+                    </div>
+                
+                
+                    <div class="box2 box nondiscount"data-aos="fade-up" data-aos-duration="1500">
+                        <img src="../assets/1shoes heel_main.jpg" alt="" class="box--imageMain">
+                        <img src="../assets/1shoes heel_face.jpg" alt="" class="box--image1">
+                        <img src="../assets/1shoes heel_left.jpg" alt="" class="box--image2">
+                        <img src="../assets/1shoes heel_right.jpg" alt="" class="box--image3">
+                        <span class="product__name">Shoes heel</span>
+                        <div class="product__price">
+                            <div class="product__price__original">50$</div>
+                            <div class="product__price__discount">50$</div>
+                        </div>
+                        <div class="product__detail__inCard">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque quaerat sed nesciunt, accusamus hic in!</div>
+                    </div>
+                
+                
+                    <div class="box3 box nondiscount" data-aos="fade-up" data-aos-duration="1500">
+                        <img src="../assets/1sneaker_main.jpg" alt="" class="box--imageMain">
+                        <img src="../assets/1sneaker_left.jpg" alt="" class="box--image1">
+                        <img src="../assets/1sneaker_pair.jpg" alt="" class="box--image2">
+                        <img src="../assets/1sneaker_right.jpg" alt="" class="box--image3">                        <span class="product__name">Sneaker</span>
+                        <div class="product__price">
+                            <div class="product__price__original">20$</div>
+                            <div class="product__price__discount">20$</div>
+                        </div>
+                        <div class="product__detail__inCard">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod sapiente non laborum. Cupiditate iste quasi ut molestias ea dolorem error.</div>
+                    </div>
+                
+                
+                    <div class="box4 box nondiscount" data-aos="fade-up" data-aos-duration="1500">
+                        <img src="../assets/2dress shoes_main.jpg" alt="" class="box--imageMain">
+                        <img src="../assets/2dress shoes_left.jpg" alt="" class="box--image1">
+                        <img src="../assets/2dress shoes_pair.jpg" alt="" class="box--image2">
+                        <img src="../assets/2dress shoes_right.jpg" alt="" class="box--image3">
+                        <span class="product__name">Drees shoes</span>
+                        <div class="product__price">
+                            <div class="product__price__original">33$</div>
+                            <div class="product__price__discount">33$</div>
+                        </div>
+                        <div class="product__detail__inCard">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eum totam harum ipsam corporis quis reiciendis, soluta illum doloribus, nulla cum voluptatibus voluptate dolorum culpa fuga.</div>
+                    </div>
+                
+                
+                    <div class="box5 box nondiscount" data-aos="fade-up" data-aos-duration="1500">
+                        <img src="../assets/2running shoes_main.jpg" alt="" class="box--imageMain">
+                        <img src="../assets/2running shoes_back.jpg" alt="" class="box--image1">
+                        <img src="../assets/2running shoes_right.jpg" alt="" class="box--image2">
+                        <img src="../assets/2running shoes_under.jpg" alt="" class="box--image3">                        <span class="product__name">Running Shoes</span>
+                        <div class="product__price">
+                            <div class="product__price__original">25$</div>
+                            <div class="product__price__discount">25$</div>
+                        </div>
+                        <div class="product__detail__inCard">Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet eaque ipsam tenetur quod pariatur alias corporis architecto, vel voluptatibus aspernatur hic! Quo iusto rerum aperiam eveniet numquam excepturi, quis ad.</div>
+                    </div>
+                
+            </div>
+
+
+            <div class="container_body__content__boxCard3 boxCard page3" >
+                
+                    <div class="box1 box nondiscount" data-aos="fade-up" data-aos-duration="1500">
+                        <img src="../assets/1chunky_main.jpg" alt="" class="box--imageMain">
+                        <img src="../assets/1chunky_left.jpg" alt="" class="box--image1">
+                        <img src="../assets/1chunky_pair.jpg"alt="" class="box--image2">
+                        <img src="../assets/1chunky_right.jpg" alt="" class="box--image3">
+                        <span class="product__name">Chunky Shoes</span>
+                        <div class="product__price">
+                            <div class="product__price__original">40$</div>
+                            <div class="product__price__discount">40$</div>
+                        </div>
+                        <div class="product__detail__inCard">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae, sint.</div>
+                    </div>
+                
+                
+                    <div class="box2 box nondiscount" data-aos="fade-up" data-aos-duration="1500">
+                        <img src="../assets/1shoes heel_main.jpg" alt="" class="box--imageMain">
+                        <img src="../assets/1shoes heel_face.jpg" alt="" class="box--image1">
+                        <img src="../assets/1shoes heel_left.jpg" alt="" class="box--image2">
+                        <img src="../assets/1shoes heel_right.jpg" alt="" class="box--image3">
+                        <span class="product__name">Shoes heel</span>
+                        <div class="product__price">
+                            <div class="product__price__original">50$</div>
+                            <div class="product__price__discount">50$</div>
+                        </div>
+                        <div class="product__detail__inCard">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque quaerat sed nesciunt, accusamus hic in!</div>
+                    </div>
+                
+                
+                    <div class="box3 box nondiscount" data-aos="fade-up" data-aos-duration="1500">
+                        <img src="../assets/1sneaker_main.jpg" alt="" class="box--imageMain">
+                        <img src="../assets/1sneaker_left.jpg" alt="" class="box--image1">
+                        <img src="../assets/1sneaker_pair.jpg" alt="" class="box--image2">
+                        <img src="../assets/1sneaker_right.jpg" alt="" class="box--image3">                        <span class="product__name">Sneaker</span>
+                        <div class="product__price">
+                            <div class="product__price__original">20$</div>
+                            <div class="product__price__discount">20$</div>
+                        </div>
+                        <div class="product__detail__inCard">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod sapiente non laborum. Cupiditate iste quasi ut molestias ea dolorem error.</div>
+                    </div>
+                
+                
+                    <div class="box4 box nondiscount" data-aos="fade-up" data-aos-duration="1500">
+                        <img src="../assets/2dress shoes_main.jpg" alt="" class="box--imageMain">
+                        <img src="../assets/2dress shoes_left.jpg" alt="" class="box--image1">
+                        <img src="../assets/2dress shoes_pair.jpg" alt="" class="box--image2">
+                        <img src="../assets/2dress shoes_right.jpg" alt="" class="box--image3">
+                        <span class="product__name">Drees shoes</span>
+                        <div class="product__price">
+                            <div class="product__price__original">33$</div>
+                            <div class="product__price__discount">33$</div>
+                        </div>
+                        <div class="product__detail__inCard">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eum totam harum ipsam corporis quis reiciendis, soluta illum doloribus, nulla cum voluptatibus voluptate dolorum culpa fuga.</div>
+                    </div>
+                
+                
+                    <div class="box5 box nondiscount" data-aos="fade-up" data-aos-duration="1500">
+                        <img src="../assets/2running shoes_main.jpg" alt="" class="box--imageMain">
+                        <img src="../assets/2running shoes_back.jpg" alt="" class="box--image1">
+                        <img src="../assets/2running shoes_right.jpg" alt="" class="box--image2">
+                        <img src="../assets/2running shoes_under.jpg" alt="" class="box--image3">                        <span class="product__name">Running Shoes</span>
+                        <div class="product__price">
+                            <div class="product__price__original">25$</div>
+                            <div class="product__price__discount">25$</div>
+                        </div>
+                        <div class="product__detail__inCard">Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet eaque ipsam tenetur quod pariatur alias corporis architecto, vel voluptatibus aspernatur hic! Quo iusto rerum aperiam eveniet numquam excepturi, quis ad.</div>
+                    </div>
+                
+            </div>
+
+            <!-- pagination -->
+            <div class="container_body__content__pagination d-flex align-items-center justify-content-center ">
+                <button class="pagination--icon_previous btn btn-outline-info"><i class='bx bx-chevrons-left'></i></button>
+                <button class="pagination--num1 pageNum btn btn-outline-info">1</button>
+                <button class="pagination--num2 pageNum btn btn-outline-info">2</button>
+                <button class="pagination--num3 pageNum btn btn-outline-info">3</button>
+                <button class="pagination--icon_next btn btn-outline-info"><i class='bx bx-chevrons-right' ></i></button>
+            </div>
+    
+        </div>
+    </div>
+    <!-- to top button -->
+    <a href="#" class="to_top">
+        <i class="fas fa-chevron-up"></i>
+    </a>
+
+
+    <!-- footer -->
+    <div class="footer">
+        <div class="footer__box1">
+            <div class="footer--logo">
+                <a href="#">
+                    <img class="logo" src="../assets/logo.png" alt="logo">
+
+                </a>
+                <h4>Follow Us</h4>
+                <div class="footer--media">
+                    <a href="https://www.facebook.com" target="_blank"><img src="../assets/fb logo.jpg" alt=""></a>
+                    <a href="https://www.instagram.com" target="_blank"><img src="../assets/IG logo.jpg" alt=""></a>
+                    <a href="https://www.tiktok.com" target="_blank"><img src="../assets/tiktok logo.jpg" alt=""></a>
+                    <a href="https://web.telegram.org" target="_blank"><img src="../assets/telegram logo.jpg" alt=""></a>
+                    
+                    
+                </div>
+            </div>
+        </div>
+        <div class="footer__box2">
+            <h4>About Us</h4>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum doloribus quidem facilis labore quam totam fugiat enim? Quia quae incidunt, vero recusandae cupiditate similique facilis iusto voluptatum veniam a facere vitae nulla culpa, perferendis consectetur officia nesciunt obcaecati consequatur excepturi!</p>
+            <h5>Payment Support</h5>
+            <img src="../assets/acleda.jpg" alt="">
+            <img src="../assets/aba logo.jpg" alt="">
+            <img src="../assets/wing logo.jpg" alt="">
+            <img src="../assets/canadia logo.jpg" alt="">
+        </div>
+        <div class="footer__box3">
+            <h4>Contact Us</h4>
+            <p><b>Tel: </b>+885 123456789</p>
+            <p><b>Email: </b>ShoppingMall@gamil.com</p>
+            <b>Address </b>
+            <p>2972 Westheimer Rd. Santa Ana, Illinois 85486 </p>
+        </div>
+    </div>
+    <!-- grayScreen -->
+    <div class="grayScreen"></div>
+    
+    <!-- detail product -->
+    <div class="detailProduct">
+        <div class="detailProduct_container">
+
+            <div class="detailProduct_container--image">
+                <div class="detailProduct_container--image1 boxImg">
+                    <img class="boxImg--main" src="" alt="" >
+                </div>
+                <div class="detailProduct_container--image2 boxImg">
+                    <img  src="" alt="" class="boxImg--img1">
+                </div>
+                <div class="detailProduct_container--image3 boxImg">
+                    <img src="" alt="" class="boxImg--img2">
+                </div>
+                <div class="detailProduct_container--image4 boxImg">
+                    <img src="" alt="" class="boxImg--img3">
+                </div>
+            </div>
+            <div class="detailProduct_container--text">
+                <h4 class="detailProduct_container--text__title">title</h4>
+                <p class="detailProduct_container--text__detail">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero nobis eos blanditiis vitae labore, doloribus sunt consequatur, rerum tempore dolorum deleniti quis sit nam harum natus? Soluta ut inventore incidunt!</p>
+                <span class="detailProduct_container--text__price">30$</span>
+                <div class="detailProduct_container--text__contactOwner">
+                    <div class="detailProduct_container--text__contactOwner--title">
+                        <h5>Chat now to buy</h5>
+                    </div>
+                    <div class="detailProduct_container--text__contactOwner--btn">
+                        <a href="https://www.messenger.com" target="_blank">
+                            <div class="text__contactOwner--btn__message">
+                                <img src="../assets/messager logo.jpg" alt="">
+                            </div>
+                        </a>
+                        
+                        <a href="https://web.telegram.org" target="_blank">
+                            <div class="text__contactOwner--btn__telegram">
+                                <img src="../assets/telegram logo.jpg" alt="">
+                            </div>
+                        </a>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="detailProduct_container--btnCancel">
+                <i class="fa-solid fa-x"></i>  
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
+<script>
+    $(document).ready(function(){
+         // header developer
+        $('.aboutUs__content').hide();
+        $('.header__navBar__container--aboutUs').click(()=>{
+            $('.aboutUs__content').fadeToggle();
+
+        })
+
+        // to top scroll
+        const toTop = document.querySelector('.to_top');
+        window.addEventListener("scroll",()=>{
+            if(window.pageYOffset >100){
+                toTop.classList.add("active");
+            }else{
+                toTop.classList.remove("active");
+            }
+        })
+
+        // slide show
+        $('.slide').hide();
+        $('.slide').eq(0).show();
+        var a =0;
+        var numSlide = $('.slide').length;
+
+        var slideNext = ()=>{
+            $('.slide').eq(a).hide();
+            a++;
+            if(a==numSlide){
+                a = 0 ;
+            }
+            $('.slide').eq(a).show();
+        }
+        
+        $('.box_next').click(()=>{
+            
+            slideNext();
+        })
+        var slideBack = ()=>{
+            $('.slide').eq(a).hide();
+            a--;
+            if(a==-1){
+                a = numSlide - 1;
+            }
+            $('.slide').eq(a).show();
+        }
+        
+        $('.box_back').click(()=>{
+            slideBack();
+
+        })
+        var autoSlide = setInterval(function(){ slideNext()},3000);
+        
+        //detail product
+        $('.box').click(function(){
+            $('.grayScreen').fadeIn(1000);
+            $('.detailProduct').slideDown(500);
+            
+            var title_product = $(this).find('.product__name').text();
+            $('.detailProduct').find('.detailProduct_container--text__title').text(title_product);
+            
+            var price_product = $(this).find('.product__price__discount').text();
+            $('.detailProduct').find('.detailProduct_container--text__price').text(price_product);
+
+            var product_deatail = $(this).find('.product__detail__inCard').text();
+            $('.detailProduct').find('.detailProduct_container--text__detail').text(product_deatail);
+            
+            var product_mainImg = $(this).find('img').attr('src');
+            $('.detailProduct').find('.boxImg--main').attr('src',product_mainImg);
+
+            var catchImg1 = $(this).find('.box--image1').attr('src');
+            var catchImg2 = $(this).find('.box--image2').attr('src');
+            var catchImg3 = $(this).find('.box--image3').attr('src');
+            $('.detailProduct').find('.boxImg--img1').attr('src',catchImg1);
+            $('.detailProduct').find('.boxImg--img2').attr('src',catchImg2);
+            $('.detailProduct').find('.boxImg--img3').attr('src',catchImg3);
+            // hover image in detail product
+            $('.boxImg').mouseover(function(){
+                var hoverImg = $(this).find('img').attr('src');
+                $('.detailProduct').find('.boxImg--main').attr('src',hoverImg);
+            })
+            $('.boxImg').mouseleave(function(){
+                
+                $('.detailProduct').find('.boxImg--main').attr('src',product_mainImg);
+
+            })
+        })
+        $('.detailProduct_container--btnCancel').click(function(){
+            $('.grayScreen').hide(200);
+            $('.detailProduct').hide(200);
+        })
+
+    // pagination
+        var b =0;
+        var pagination = $('.pageNum').length;
+
+        $('.page2').hide();
+        $('.page3').hide();
+
+        
+
+        $('.pageNum').eq(b).css({
+            'background-color':'blue'
+        });
+        var pageNext = ()=>{
+
+            if(b >=pagination){
+                b = pagination-1;
+            }
+            $('.pageNum').eq(b-1).css({
+                'background-color':'white',
+            });
+            $('.pageNum').eq(b).css({
+                'background-color':'blue',
+            });
+            if(b == 1){
+                $('.page2').fadeIn(200);
+            }
+            if(b == 2){
+                $('.page3').fadeIn(200);
+            }
+            
+            
+            b++;
+        }
+        
+        $('.pagination--icon_next').click(()=>{
+            pageNext();
+        })
+
+
+        var pageBack = ()=>{
+            b--;
+            if(b<0){
+                b=0;
+            }
+            
+            $('.pageNum').eq(b).css({
+                'background-color':'blue'
+            }); 
+            $('.pageNum').eq(b+1).css({
+                'background-color':'white'
+            });  
+            if(b == 0){
+                $('.page2').fadeOut(200);
+            }
+            if(b == 1){
+                $('.page3').fadeOut(200);
+            }
+
+        }
+        
+        $('.pagination--icon_previous').click(()=>{
+            pageBack();
+        })
+        
+    // catergory
+        // women
+        var chooseWomen1 = $('.women').find('.women1').attr('src');
+        var chooseWomen2 = $('.women').find('.women2').attr('src');
+        var chooseWomen3 = $('.women').find('.women3').attr('src');
+        var chooseWomen4 = $('.women').find('.women4').attr('src');
+        var chooseWomenPriceOri = $('.women').find('del').text();
+        var chooseWomenPriceDis = $('.women').find('.product__price__discount').text();
+
+
+
+        var choseWomenShoes = ()=>{
+            
+            $('.box').find('.box--imageMain').attr('src',chooseWomen1);
+            $('.box').find('.box--image1').attr('src',chooseWomen2);
+            $('.box').find('.box--image2').attr('src',chooseWomen3);
+            $('.box').find('.box--image3').attr('src',chooseWomen4);
+            $('.box').find('.product__price__original').text(chooseWomenPriceOri);
+            $('.box').find('del').text(chooseWomenPriceOri);
+
+            $('.box').find('.product__price__discount').text(chooseWomenPriceDis);
+
+
+        }
+        $('.women').click(()=>{
+            choseWomenShoes();
+        })
+
+
+        // girl
+        var chooseGirl1 = $('.girl').find('.girl1').attr('src');
+        var chooseGirl2 = $('.girl').find('.girl2').attr('src');
+        var chooseGirl3 = $('.girl').find('.girl3').attr('src');
+        var chooseGirl4 = $('.girl').find('.girl4').attr('src');
+        var chooseGirlPriceOri = $('.girl').find('del').text();
+        var chooseGirlPriceDis = $('.girl').find('.product__price__discount').text();
+
+
+
+        var choseGirlShoes = ()=>{
+            
+            $('.box').find('.box--imageMain').attr('src',chooseGirl1);
+            $('.box').find('.box--image1').attr('src',chooseGirl2);
+            $('.box').find('.box--image2').attr('src',chooseGirl3);
+            $('.box').find('.box--image3').attr('src',chooseGirl4);
+            $('.box').find('.product__price__original').text(chooseGirlPriceOri);
+            $('.box').find('del').text(chooseGirlPriceOri);
+
+            $('.box').find('.product__price__discount').text(chooseGirlPriceDis);
+
+
+        }
+        $('.girl').click(()=>{
+            choseGirlShoes();
+        })
+
+        // boy
+        var chooseboy1 = $('.boy').find('.boy1').attr('src');
+        var chooseboy2 = $('.boy').find('.boy2').attr('src');
+        var chooseboy3 = $('.boy').find('.boy3').attr('src');
+        var chooseboy4 = $('.boy').find('.boy4').attr('src');
+        var chooseboyPriceOri = $('.boy').find('del').text();
+        var chooseboyPriceDis = $('.boy').find('.product__price__discount').text();
+
+
+
+        var choseboyShoes = ()=>{
+            
+            $('.box').find('.box--imageMain').attr('src',chooseboy1);
+            $('.box').find('.box--image1').attr('src',chooseboy2);
+            $('.box').find('.box--image2').attr('src',chooseboy3);
+            $('.box').find('.box--image3').attr('src',chooseboy4);
+            $('.box').find('.product__price__original').text(chooseboyPriceOri);
+            $('.box').find('del').text(chooseboyPriceOri);
+
+            $('.box').find('.product__price__discount').text(chooseboyPriceDis);
+
+
+        }
+        $('.boy').click(()=>{
+            choseboyShoes();
+        })
+
+        // men
+        var choosemen1 = $('.men').find('.men1').attr('src');
+        var choosemen2 = $('.men').find('.men2').attr('src');
+        var choosemen3 = $('.men').find('.men3').attr('src');
+        var choosemen4 = $('.men').find('.men4').attr('src');
+        var choosemenPriceOri = $('.men').find('del').text();
+        var choosemenPriceDis = $('.men').find('.product__price__discount').text();
+
+
+
+        var chosemenShoes = ()=>{
+            
+            $('.box').find('.box--imageMain').attr('src',choosemen1);
+            $('.box').find('.box--image1').attr('src',choosemen2);
+            $('.box').find('.box--image2').attr('src',choosemen3);
+            $('.box').find('.box--image3').attr('src',choosemen4);
+            $('.box').find('.product__price__original').text(choosemenPriceOri);
+            $('.box').find('del').text(choosemenPriceOri);
+
+            $('.box').find('.product__price__discount').text(choosemenPriceDis);
+
+
+        }
+        $('.men').click(()=>{
+            chosemenShoes();
+        })
+
+
+    })
+
+</script>
+<script>
+    AOS.init();
+</script>
